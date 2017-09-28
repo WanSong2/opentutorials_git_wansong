@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 pin = "881120-1068234"
 yyyymmdd = pin[0:6]
 num = pin[7:14]
@@ -43,3 +45,22 @@ print(aSet)
 a = b = [1,2,3]
 a[1] = 4
 print(b)
+
+a = 'a' in ('a', 'b', 'c')
+print(a)
+
+pocket = ['paper', 'money', 'cellphone']
+if 'money' in pocket:
+    print('pass')
+else:
+    print("카드를 꺼내라")
+
+pocket = ['paper', 'cellphone']
+card = 1
+if 'money' in pocket:
+    print("택시를 타고 가라")
+else:
+    if card:
+        print("택시를 타고 가라")
+    else:
+        print("걸어 가라")
